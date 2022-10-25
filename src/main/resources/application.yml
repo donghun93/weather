@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/project
-    username: root
-    password: root
+    username:
+    password:
 
   jpa:
     show-sql: true
@@ -18,7 +18,7 @@ spring:
       matching-strategy: ant_path_matcher
 
 openweathermap:
-  key: 4c7f12cc2b7bd89375dbf1e02bfbcc17
+  key:
 logging:
   config: classpath:logback-spring.xml
 
