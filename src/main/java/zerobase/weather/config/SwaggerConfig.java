@@ -1,6 +1,7 @@
 package zerobase.weather.config;
 
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -11,7 +12,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
 public class SwaggerConfig {
-    //@Bean
+    @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
