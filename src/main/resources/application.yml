@@ -19,7 +19,8 @@ spring:
 
 openweathermap:
   key: 4c7f12cc2b7bd89375dbf1e02bfbcc17
-
+logging:
+  config: classpath:logback-spring.xml
 
 ---
 spring:
